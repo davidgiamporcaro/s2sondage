@@ -1,0 +1,7 @@
+parameters:
+#    sondage_survey.example.class: Sondage\SurveyBundle\Example
+
+services:
+#    sondage_survey.example:
+#        class: %sondage_survey.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
