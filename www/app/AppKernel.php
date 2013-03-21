@@ -22,6 +22,7 @@ class AppKernel extends Kernel
 
             new FOS\UserBundle\FOSUserBundle(),
             new Sondage\UserBundle\UserBundle(),
+            new Sondage\SurveyBundle\SondageSurveyBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
