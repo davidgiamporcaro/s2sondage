@@ -1,0 +1,14 @@
+parameters:
+#    sondage_authenticated_user.example.class: Sondage\AuthenticatedUserBundle\Example
+
+#services:
+#    sondage_authenticated_user.example:
+#        class: %sondage_authenticated_user.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+services:
+    sondage_authenticated_user.registration.form.type:
+        class: Sondage\AuthenticatedUserBundle\Form\Type\RegistrationFormType
+        arguments: [%fos_user.model.user.class%]
+        tags:
+            - { name: form.type, alias: sondage_user_registration }
