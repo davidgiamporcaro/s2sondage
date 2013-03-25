@@ -67,4 +67,7 @@ swiftmailer:
 fos_user:
     db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
     firewall_name: main
-    user_class: Sondage\UserBundle\Entity\User
+    user_class: Sondage\AuthenticatedUserBundle\Entity\User
+    registration:
+      form:
+        type: sondage_user_registration
