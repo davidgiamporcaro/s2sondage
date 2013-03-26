@@ -2,23 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="42f0eea8-7d8d-44b3-a289-162c8ce55803" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Registration" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Registration/register_content.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/www/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/layout.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Registration/register_content.html.twig" afterPath="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Registration/register_content.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sondage.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364232910411" ignored="false" />
+    <file path="/Dummy.txt" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364312246611" ignored="false" />
     <file path="/login.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1363958873933" ignored="false" />
     <file path="/layout.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1363958443759" ignored="false" />
-    <file path="/RegistrationFormType.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364227859206" ignored="false" />
+    <file path="/RegistrationFormType.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364310631526" ignored="false" />
     <file path="/service.yml" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1363959495653" ignored="false" />
     <file path="/config.yml" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364220814511" ignored="false" />
     <file path="/services.yml" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364220947421" ignored="false" />
     <file path="/a.dummy" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364220902316" ignored="false" />
-    <file path="/register_content.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364227779398" ignored="false" />
+    <file path="/register_content.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364311793625" ignored="false" />
+    <file path="/fields.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364311179435" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +40,56 @@
       <file leaf-file-name="RegistrationFormType.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Form/Type/RegistrationFormType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="48" selection-start="267" selection-end="267" vertical-scroll-proportion="-3.2692308">
+            <state line="17" column="5" selection-start="460" selection-end="460" vertical-scroll-proportion="-7.1923075">
+              <folding>
+                <element signature="e#219#267#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationFormType.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Form/Type/RegistrationFormType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="80" selection-start="1291" selection-end="1312" vertical-scroll-proportion="-15.423077">
+              <folding>
+                <element signature="e#298#338#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register_content.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Registration/register_content.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="30" selection-start="532" selection-end="532" vertical-scroll-proportion="-5.8846154">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register_content.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Registration/register_content.html.twig">
+      <file leaf-file-name="ProfileFormType.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Form/Type/ProfileFormType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="7" selection-start="359" selection-end="359" vertical-scroll-proportion="0.23242188">
+            <state line="16" column="70" selection-start="522" selection-end="522" vertical-scroll-proportion="-3.9230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_content.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Profile/edit_content.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.20689656">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Profile/edit.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -59,7 +98,7 @@
       <file leaf-file-name="login.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Security/login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="31" selection-start="355" selection-end="355" vertical-scroll-proportion="-5.8846154">
+            <state line="11" column="25" selection-start="475" selection-end="506" vertical-scroll-proportion="-7.1923075">
               <folding />
             </state>
           </provider>
@@ -75,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/www/src/Sondage/UserBundle/Resources/views/Security/login.html.twig" />
-        <option value="$PROJECT_DIR$/www/src/Sondage/UserBundle/Resources/config/service.yml" />
         <option value="$PROJECT_DIR$/www/src/Sondage/UserBundle/Form/Type/RegistrationFormType.php" />
         <option value="$PROJECT_DIR$/www/src/Sondage/UserBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/SondageAuthenticatedUserBundle.php" />
@@ -89,8 +126,10 @@
         <option value="$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Registration/register_content.html.twig" />
         <option value="$PROJECT_DIR$/www/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/layout.html.twig" />
-        <option value="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Registration/register_content.html.twig" />
+        <option value="$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Form/Type/RegistrationFormType.php" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Form/fields.html.twig" />
         <option value="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Form/Type/RegistrationFormType.php" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Registration/register_content.html.twig" />
       </list>
     </option>
   </component>
@@ -143,7 +182,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,6 +241,222 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bundles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s2sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s2sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FOS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s2sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FOS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s2sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FOS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Profile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s2sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FOS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s2sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FOS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -502,34 +756,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s2sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,8 +767,8 @@
     <property name="options.lastSelected" value="preferences.general" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -637,21 +866,23 @@
       <created>1364221445106</created>
       <updated>1364221445106</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Override RegisterForm">
+      <created>1364232921132</created>
+      <updated>1364232921132</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1678" height="1008" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33568904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3349001" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26794556" sideWeight="0.66431093" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27165842" sideWeight="0.66509986" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -660,6 +891,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -732,67 +965,34 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/FOSUserBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Registration/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Form/Handler/RegistrationFormHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="27" selection-start="652" selection-end="652" vertical-scroll-proportion="-1.312">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/registration.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="0.22077923">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="0.22077923" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/routing/registration.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Registration/register_content.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="-3.9230769">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="-3.9230769" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.27642277">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.27642277" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/vendor/symfony/symfony/src/Symfony/Component/Form/FormBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="2" selection-start="565" selection-end="565" vertical-scroll-proportion="-5.832636">
-          <folding />
-        </state>
+        <state line="20" column="2" selection-start="565" selection-end="565" vertical-scroll-proportion="-5.832636" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/vendor/symfony/symfony/src/Symfony/Component/Form/FormBuilderInterface.php">
@@ -802,46 +1002,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="14" selection-start="104" selection-end="104" vertical-scroll-proportion="0.099609375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/README.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="420" selection-end="420" vertical-scroll-proportion="-0.6003717" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="475" selection-end="506" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Form/Type/RegistrationFormType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="30" selection-start="664" selection-end="664" vertical-scroll-proportion="0.27494907">
+        <state line="38" column="80" selection-start="1291" selection-end="1312" vertical-scroll-proportion="-15.423077">
           <folding>
             <element signature="e#298#338#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="104" selection-end="104" vertical-scroll-proportion="0.099609375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/README.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="420" selection-end="420" vertical-scroll-proportion="-0.6003717">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Form/Type/RegistrationFormType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="48" selection-start="267" selection-end="267" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="355" selection-end="355" vertical-scroll-proportion="-5.8846154">
-          <folding />
+        <state line="17" column="5" selection-start="460" selection-end="460" vertical-scroll-proportion="-7.1923075">
+          <folding>
+            <element signature="e#219#267#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Registration/register_content.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="359" selection-end="359" vertical-scroll-proportion="0.23242188">
+        <state line="9" column="30" selection-start="532" selection-end="532" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Form/Type/ProfileFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="70" selection-start="522" selection-end="522" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Profile/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Profile/edit_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.20689656">
           <folding />
         </state>
       </provider>
