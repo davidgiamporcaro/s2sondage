@@ -17,14 +17,23 @@
                 <div class="top">
                     {% block navigation %}
                     <nav>
-                     <div class="navbar">
+                     <div class="navbar navbar-fixed-top">
                       <div class="navbar-inner">
-                        <ul class="nav">
-                          {% set currentPath = path(app.request.attributes.get('_route')) %}
-                          <li {% if currentPath == '/' %} class='active' {% endif %}><a href="/">Home</a></li>
-                          <li {% if currentPath == path('fos_user_security_login') %} class='active' {% endif %}><a href="{{ path('fos_user_security_login') }}">Login</a></li>
-                          <li {% if currentPath == path('fos_user_registration_register') %} class='active' {% endif %}><a href="{{ path('fos_user_registration_register') }}">Register</a></li>
-                        </ul>
+                          <div class="container">
+                              {% set currentPath = path(app.request.attributes.get('_route')) %}
+                              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                              </a>
+                              <li {% if currentPath == '/' %} class='active' {% endif %}><a href="/">Home</a></li>
+                              <div class="nav-collapse">
+                                <ul class="nav">
+                                  <li {% if currentPath == path('fos_user_security_login') %} class='active' {% endif %}><a href="{{ path('fos_user_security_login') }}">Login</a></li>
+                                  <li {% if currentPath == path('fos_user_registration_register') %} class='active' {% endif %}><a href="{{ path('fos_user_registration_register') }}">Register</a></li>
+                                </ul>
+                              </div>
+                          </div>
                       </div>
                      </div>
                     </nav>
