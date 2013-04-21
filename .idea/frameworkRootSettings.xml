@@ -3,9 +3,9 @@
   <component name="FrameworkRootSettings" id="Symfony2">
     <option name="typedPaths">
       <list>
-        <element elementPath="$PROJECT_DIR$/www/web" typeId="web_directory" />
         <element elementPath="$PROJECT_DIR$/www/app" typeId="app_directory" />
         <element elementPath="$PROJECT_DIR$/www/src" typeId="src_directory" />
+        <element elementPath="$PROJECT_DIR$/www/web" typeId="web_directory" />
       </list>
     </option>
   </component>
