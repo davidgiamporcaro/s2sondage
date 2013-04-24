@@ -41,16 +41,11 @@
                     {% endblock %}
                 </div>
 
-                <hgroup>
-                    <h2>{% block page_title %}{% endblock %}</h2>
-                    <h3>{% block page_tagline %}{% endblock %}</h3>
-                </hgroup>
             </header>
 
-            <aside class="sidebar">
-                {% block sidebar %}{% endblock %}
-            </aside>
             <section class="main-col">
+                <h2>{% block page_title %}{% endblock %}</h2>
+                <h3>{% block page_tagline %}{% endblock %}</h3>
                 {% block body %}{% endblock %}
             </section>
 
