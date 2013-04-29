@@ -1,0 +1,14 @@
+{# src/Sondage/SurveyBundle/Resouces/views/Survey/display.html.twig #}
+{% extends 'SondageSurveyBundle::layout.html.twig' %}
+
+{# {% block title %}{{ survey.title }}{% endblock %} #}
+
+{% block body %}
+    <article class="survey_list">
+        <ul>
+            {% for survey in surveys %}
+                <li>{{  survey.title }}</li>
+            {% endfor %}
+        </ul>
+    </article>
+{% endblock %}
