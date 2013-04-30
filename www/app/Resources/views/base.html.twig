@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}{% trans %}Welcome!{% endtrans %}{% endblock %}</title>
         {% block stylesheets %}
             <link href="{{ asset('/bundles/sondagesurvey/css/bootstrap.min.css') }}" type="text/css" rel="stylesheet" />
             <link href="{{ asset('/bundles/sondagesurvey/css/bootstrap-responsive.css') }}" rel="stylesheet">
@@ -29,9 +29,20 @@
                               </a>
                               <div class="nav-collapse">
                                 <ul class="nav">
-                                    <li {% if currentPath == '/' %} class='active' {% endif %}><a href="/">Home</a></li>
-                                    <li {% if currentPath == path('fos_user_security_login') %} class='active' {% endif %}><a href="{{ path('fos_user_security_login') }}">Login</a></li>
-                                    <li {% if currentPath == path('fos_user_registration_register') %} class='active' {% endif %}><a href="{{ path('fos_user_registration_register') }}">Register</a></li>
+                                    <li {% if currentPath == '/' %} class='active' {% endif %}><a href="/">{% trans %}Home{% endtrans %}</a></li>
+                                    {% if is_granted("IS_AUTHENTICATED_FULLY") %}
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="{{ path('fos_user_profile_show') }}"> {% trans %}Connected with{% endtrans %} {{ app.user.username }} <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="{{ path('sondage_survey_list') }}">{% trans %}My surveys{% endtrans %}</a></li>
+                                                <li><a href="#">{% trans %}Create new survey{% endtrans %}</a></li>
+                                            </ul>
+                                        </li>
+                                        <li {% if currentPath == path('fos_user_security_login') %} class='active' {% endif %}><a href="{{ path('fos_user_security_logout') }}">{% trans %}Logout{% endtrans %}</a></li>
+                                    {% else %}
+                                        <li {% if currentPath == path('fos_user_security_login') %} class='active' {% endif %}><a href="{{ path('fos_user_security_login') }}">{% trans %}Login{% endtrans %}</a></li>
+                                        <li {% if currentPath == path('fos_user_registration_register') %} class='active' {% endif %}><a href="{{ path('fos_user_registration_register') }}">{% trans %}Register{% endtrans %}</a></li>
+                                    {% endif %}
                                 </ul>
                               </div>
                           </div>
@@ -44,7 +55,7 @@
             </header>
 
             <section class="main-col">
-                <h2{% block page_title %}{% endblock %}</h2>
+                <h2>{% block page_title %}{% endblock %}</h2>
                 <h3>{% block page_tagline %}{% endblock %}</h3>
                 {% block body %}{% endblock %}
             </section>

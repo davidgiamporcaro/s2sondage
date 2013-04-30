@@ -11,3 +11,9 @@ sondage_survey_display:
 sondage_survey_list:
     pattern: survey/list
     defaults: { _controller: SondageSurveyBundle:Survey:list }
+sondage_survey_edit:
+    pattern: survey/edit/{id}
+    defaults: { _controller: SondageSurveyBundle:Survey:edit , id: 0 }
+    requirements:
+      _method:  GET
+      id: \d+
