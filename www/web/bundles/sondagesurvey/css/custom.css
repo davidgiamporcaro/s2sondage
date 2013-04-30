@@ -13,7 +13,37 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 .navbar-fixed-top {
 	padding-top: 168px; 
 }
+.survey-list ul {
+    margin: 0 0 0 0;
+}
 
+.survey-list ul li {
+    list-style-type: none;
+}
+
+.command-action {
+    width: 100%;
+}
+
+[class^="survey-icon-"],[class*=" survey-icon-"]{
+    display:inline-block;
+    width:27px;
+    height:27px;
+    *margin-right:.3em;
+    line-height:14px;
+    vertical-align:text-top;
+    background-image:url("../img/elegant_blue_web_full_160.png");
+    background-position:27px 27px;
+    background-repeat:no-repeat;
+    margin-top:1px;
+}
+
+.survey-icon-pencil {
+    background-position:-133px 0px;
+}
+.survey-icon-remove {
+    background-position:-80px -134px;
+}
 @media only screen and (min-width:640px) {
 	.logo { 
 		max-width: 100%; 
@@ -45,3 +75,4 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 		text-shadow:4px 4px #C9C9C9;
 	}
 }
+

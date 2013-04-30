@@ -53,4 +53,23 @@ class SurveyController extends Controller
             ));
         }
     }
+
+    /**
+     * Show all user's survey
+     */
+    public function editAction($id)
+    {
+        if( $this->container->get('security.context')->isGranted('IS_AUTHENTICATED_FULLY') ) {
+            $user = $this->container->get('security.context')->getToken()->getUser();
+            $em = $this->getDoctrine()->getManager();
+            $surveys = $em->getRepository('SondageSurveyBundle:Survey')->find($id);
+            if (!$surveys) {
+                throw $this->createNotFoundException('Unable to find this survey.');
+            }
+
+            return $this->render('SondageSurveyBundle:Survey:edit.html.twig', array(
+                'surveys'      => $surveys,
+            ));
+        }
+    }
 }

@@ -4,10 +4,18 @@
 {# {% block title %}{{ survey.title }}{% endblock %} #}
 
 {% block body %}
-    <article class="survey_list">
+    <article class="survey-list">
         <ul>
             {% for survey in surveys %}
-                <li>{{  survey.title }}</li>
+                {% if (loop.index % 2) == 0 %}
+                    <li style="background-color: white">
+                {% else %}
+                    <li>
+                {% endif %}
+                    <a href="{{ path('sondage_survey_edit') }}/{{ survey.id }}"><i class="survey-icon-pencil"></i></a>
+                    <a href="#{# {{ path('sondage_survey_remove') }}/{{ survey.id }} #}"><i class="survey-icon-remove"></i></a>
+                    <a href="{{ path('sondage_survey_display') }}/{{ survey.id }}">{{  survey.title }}</a>
+                </li>
             {% endfor %}
         </ul>
     </article>
