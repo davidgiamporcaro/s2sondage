@@ -11,6 +11,8 @@
 
 namespace Sondage\SurveyBundle\Controller;
 
+use Sondage\SurveyBundle\Entity\Survey;
+use Sondage\SurveyBundle\Form\Type\SurveyType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 
@@ -57,18 +59,45 @@ class SurveyController extends Controller
     /**
      * Show all user's survey
      */
-    public function editAction($id)
+    public function editAction($id = null)
     {
         if( $this->container->get('security.context')->isGranted('IS_AUTHENTICATED_FULLY') ) {
-            $user = $this->container->get('security.context')->getToken()->getUser();
             $em = $this->getDoctrine()->getManager();
-            $surveys = $em->getRepository('SondageSurveyBundle:Survey')->find($id);
-            if (!$surveys) {
-                throw $this->createNotFoundException('Unable to find this survey.');
+            if (isset($id) && $id != 0) {
+                $survey = $em->getRepository('SondageSurveyBundle:Survey')->find($id);
+                if (!$survey) {
+                    throw $this->createNotFoundException('Unable to find this survey.');
+                }
+
+            } else {
+                $survey = new Survey();
             }
 
+            $form = $this->createForm(new SurveyType(), $survey);
+
+            $request = $this->getRequest();
+
+            if ('POST' == $request->getMethod()) {
+                $form->bind($request);
+                $data = $form->getData();
+
+                if ($form->isValid()) {
+                    $survey->setTitle($data->getTitle());
+                    $em->persist($survey);
+                    $em->flush();
+
+                    $this->get('session')->setFlash('success', 'New survey was saved!');
+
+                }
+                else {
+                    $this->get('session')->setFlash('error', 'The survey was not saved!');
+                }
+            }
+
+
             return $this->render('SondageSurveyBundle:Survey:edit.html.twig', array(
-                'surveys'      => $surveys,
+                'survey'      => $survey,
+                'form'      => $form->createView(),
             ));
         }
     }

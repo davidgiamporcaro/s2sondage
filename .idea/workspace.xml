@@ -2,46 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="42f0eea8-7d8d-44b3-a289-162c8ce55803" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Entity" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Entity/Survey.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Controller/SurveyController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/display.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/SondageSurveyBundle.php" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/SondageSurveyBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/composer.phar" afterPath="$PROJECT_DIR$/www/composer.phar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Controller/SurveyController.php" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Controller/SurveyController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Entity/User.php" afterPath="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Entity/User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/www/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" afterPath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/bootstrap.php.cache" afterPath="$PROJECT_DIR$/www/app/bootstrap.php.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/composer.lock" afterPath="$PROJECT_DIR$/www/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Security/login.html.twig" afterPath="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Security/login.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Registration/register_content.html.twig" afterPath="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Registration/register_content.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/config/security.yml" afterPath="$PROJECT_DIR$/www/app/config/security.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sondage.iml" afterPath="$PROJECT_DIR$/.idea/sondage.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sondage.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1366565252877" ignored="false" />
-    <file path="/login.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1363958873933" ignored="false" />
-    <file path="/layout.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1366130731801" ignored="false" />
+    <file path="/Dummy.txt" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367333402634" ignored="false" />
+    <file path="/login.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367845124242" ignored="false" />
+    <file path="/layout.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367324255712" ignored="false" />
     <file path="/RegistrationFormType.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364310631526" ignored="false" />
     <file path="/service.yml" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1363959495653" ignored="false" />
     <file path="/config.yml" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364220814511" ignored="false" />
     <file path="/services.yml" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364220947421" ignored="false" />
-    <file path="/a.dummy" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364220902316" ignored="false" />
-    <file path="/register_content.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364311793625" ignored="false" />
+    <file path="/a.dummy" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367326536614" ignored="false" />
+    <file path="/register_content.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367851441232" ignored="false" />
     <file path="/fields.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364311179435" ignored="false" />
-    <file path="/base.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367247256249" ignored="false" />
+    <file path="/base.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367858247850" ignored="false" />
     <file path="/PageController.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1365768535759" ignored="false" />
-    <file path="/routing.yml" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367243713160" ignored="false" />
+    <file path="/routing.yml" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367858689876" ignored="false" />
     <file path="/DefaultController.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1365768360987" ignored="false" />
     <file path="/index.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1366130332219" ignored="false" />
-    <file path="/custom.css" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1366130979169" ignored="false" />
+    <file path="/custom.css" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367332116521" ignored="false" />
     <file path="/Survey.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367244051664" ignored="false" />
-    <file path="/SurveyController.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367247000885" ignored="false" />
+    <file path="/SurveyController.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367858869120" ignored="false" />
     <file path="/display.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367241731048" ignored="false" />
-    <file path="/list.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367247161158" ignored="false" />
-    <file path="/security.yml" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367246063921" ignored="false" />
+    <file path="/list.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367332922161" ignored="false" />
+    <file path="/security.yml" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367323962622" ignored="false" />
+    <file path="/README.txt" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367323117092" ignored="false" />
+    <file path="/add.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367854865089" ignored="false" />
+    <file path="/SurveyType.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367854285611" ignored="false" />
+    <file path="/edit.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367858532139" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +60,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Survey.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Entity/Survey.php">
+      <file leaf-file-name="edit.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/edit.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="7" selection-start="687" selection-end="687" vertical-scroll-proportion="-18.75">
+            <state line="13" column="22" selection-start="659" selection-end="659" vertical-scroll-proportion="-8.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register_content.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Registration/register_content.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="14" selection-start="1557" selection-end="1924" vertical-scroll-proportion="-25.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Security/login.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SurveyController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Controller/SurveyController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="0" selection-start="2995" selection-end="2995" vertical-scroll-proportion="0.8184397">
+              <folding>
+                <element signature="e#274#313#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="28" selection-start="3478" selection-end="3478" vertical-scroll-proportion="-10.458333">
               <folding />
             </state>
           </provider>
@@ -73,55 +110,7 @@
       <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="72" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SurveyController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Controller/SurveyController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="29" selection-start="987" selection-end="987" vertical-scroll-proportion="-17.166666">
-              <folding>
-                <element signature="e#6#167#0" expanded="true" />
-                <element signature="e#274#331#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/app/Resources/views/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="185" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.5202312">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="security.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/config/security.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="61" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="39" selection-start="326" selection-end="326" vertical-scroll-proportion="-5.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="display.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/display.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="14" selection-start="457" selection-end="457" vertical-scroll-proportion="-7.5">
+            <state line="17" column="24" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -137,22 +126,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/custom.css" />
-        <option value="$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/boostrap-responsive.css" />
-        <option value="$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/bootstrap-responsive.css" />
-        <option value="$PROJECT_DIR$/www/web/bundles/sondagesurvey/js/bootstrap.js" />
-        <option value="$PROJECT_DIR$/www/web/bundles/sondagesurvey/js/bootstrap.min.js" />
-        <option value="$PROJECT_DIR$/www/web/bundles/sondagesurvey/js/jquery-2.0.js" />
-        <option value="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Security/login.html.twig" />
-        <option value="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/layout.html.twig" />
-        <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/SondageSurveyBundle.php" />
-        <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/display.html.twig" />
-        <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Entity/Survey.php" />
+        <option value="$PROJECT_DIR$/www/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/README.txt" />
         <option value="$PROJECT_DIR$/www/app/config/security.yml" />
-        <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Controller/SurveyController.php" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list.html.twig" />
+        <option value="$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/custom.css" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Security/login.html.twig" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Registration/register_content.html.twig" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Form/Type/SurveyType.php" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/add.html.twig" />
         <option value="$PROJECT_DIR$/www/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/edit.html.twig" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Controller/SurveyController.php" />
       </list>
     </option>
   </component>
@@ -259,97 +248,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sondagesurvey" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s2sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sondagesurvey" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s2sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sondagesurvey" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s2sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -368,6 +267,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sondage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -574,6 +477,40 @@
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="translations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s2sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurveyBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -606,6 +543,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s2sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sondage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurveyBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Type" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -683,62 +654,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AuthenticatedUserBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s2sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AuthenticatedUserBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s2sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -769,28 +684,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s2sondage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -814,12 +707,137 @@
       <recent name="D:\perso\dev\s2sondage\www\src\Sondage\UserBundle\Form\Type" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Form/Type" />
       <recent name="$PROJECT_DIR$/www/web/bundles/sondagesurvey/css" />
       <recent name="D:\perso\dev\s2sondage\www\src\Sondage\AuthenticatedUserBundle" />
       <recent name="D:\perso\dev\s2sondage\www\src\Sondage\AuthenticatedUserBundle\Resources\views" />
       <recent name="D:\perso\dev\s2sondage\www\src\Sondage\AuthenticatedUserBundle\Tests" />
-      <recent name="D:\perso\dev\s2sondage\www\web\bundles\sondagesurvey" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+            <PATH vcs="svn" revision="28">$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/bootstrap-responsive.css</PATH>
+            <PATH vcs="svn" revision="28">$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/bootstrap.css</PATH>
+            <PATH vcs="svn" revision="28">$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/bootstrap.min.css</PATH>
+            <PATH vcs="svn" revision="28">$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/custom.css</PATH>
+            <PATH vcs="svn" revision="28">$PROJECT_DIR$/www/web/bundles/sondagesurvey/img</PATH>
+            <PATH vcs="svn" revision="28">$PROJECT_DIR$/www/web/bundles/sondagesurvey/img/Sondage.gif</PATH>
+            <PATH vcs="svn" revision="28">$PROJECT_DIR$/www/web/bundles/sondagesurvey/img/elegant_blue_web_full.png</PATH>
+            <PATH vcs="svn" revision="28">$PROJECT_DIR$/www/web/bundles/sondagesurvey/img/elegant_blue_web_full_160.png</PATH>
+            <PATH vcs="svn" revision="28">$PROJECT_DIR$/www/web/bundles/sondagesurvey/img/elegant_blue_web_full_320.png</PATH>
+            <PATH vcs="svn" revision="28">$PROJECT_DIR$/www/web/bundles/sondagesurvey/img/glyphicons-halflings-white.png</PATH>
+            <PATH vcs="svn" revision="28">$PROJECT_DIR$/www/web/bundles/sondagesurvey/img/glyphicons-halflings.png</PATH>
+            <PATH vcs="svn" revision="28">$PROJECT_DIR$/www/web/bundles/sondagesurvey/js/bootstrap.js</PATH>
+            <PATH vcs="svn" revision="28">$PROJECT_DIR$/www/web/bundles/sondagesurvey/js/bootstrap.min.js</PATH>
+            <PATH vcs="svn" revision="28">$PROJECT_DIR$/www/web/bundles/sondagesurvey/js/jquery-2.0.js</PATH>
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -927,27 +945,39 @@
       <created>1366565231173</created>
       <updated>1366565231173</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="adding survey list view, display view, entity, security">
+      <created>1367247365115</created>
+      <updated>1367247365116</updated>
+    </task>
+    <task id="LOCAL-00014" summary="adding survey edit delete link, css">
+      <created>1367333384131</created>
+      <updated>1367333384131</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adding icons">
+      <created>1367333412105</created>
+      <updated>1367333412105</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1682" height="922" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33371428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33118558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969324" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26682988" sideWeight="0.6718147" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2729498" sideWeight="0.6722365" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32860824" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818532" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277635" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -997,7 +1027,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding jquery" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding icons" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1021,126 +1051,127 @@
     <MESSAGE value="Adding homepage" />
     <MESSAGE value="adding sidebar" />
     <MESSAGE value="adding jquery" />
+    <MESSAGE value="adding survey list view, display view, entity, security" />
+    <MESSAGE value="adding survey edit delete link, css" />
+    <MESSAGE value="adding icons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Registration/register_content.html.twig">
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/translations/messages.fr.xlf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="10" selection-start="1181" selection-end="1181" vertical-scroll-proportion="-15.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="2" column="65" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/SondageSurveyBundle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.16506189">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.22696011">
-          <folding>
-            <element signature="e#6#163#0" expanded="false" />
-            <element signature="e#216#259#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Page/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/layout.html.twig">
+    <entry file="file://$PROJECT_DIR$/www/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/AccessDeniedException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="507" selection-end="507" vertical-scroll-proportion="0.26822558">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="72" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Entity/Survey.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="7" selection-start="687" selection-end="687" vertical-scroll-proportion="-18.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="61" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/display.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="14" selection-start="457" selection-end="457" vertical-scroll-proportion="-7.5">
+        <state line="7" column="37" selection-start="172" selection-end="172" vertical-scroll-proportion="0.2">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="326" selection-end="326" vertical-scroll-proportion="-5.625">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Form/Type/SurveyType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="29" selection-start="620" selection-end="620" vertical-scroll-proportion="-11.875">
+          <folding>
+            <element signature="e#50#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/display.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="442" selection-end="442" vertical-scroll-proportion="0.36666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Entity/Survey.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="5" selection-start="838" selection-end="838" vertical-scroll-proportion="0.42553192">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Controller/ProfileController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="23" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.5202312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Controller/RegistrationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="68" selection-start="1097" selection-end="1097" vertical-scroll-proportion="-0.4680851">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="28" selection-start="3478" selection-end="3478" vertical-scroll-proportion="-10.458333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="24" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/AuthenticatedUserBundle/Resources/views/Registration/register_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="14" selection-start="1557" selection-end="1924" vertical-scroll-proportion="-25.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="22" selection-start="659" selection-end="659" vertical-scroll-proportion="-8.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Controller/SurveyController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="29" selection-start="987" selection-end="987" vertical-scroll-proportion="-17.166666">
+        <state line="93" column="0" selection-start="2995" selection-end="2995" vertical-scroll-proportion="0.8184397">
           <folding>
-            <element signature="e#6#167#0" expanded="true" />
-            <element signature="e#274#331#0" expanded="true" />
+            <element signature="e#274#313#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="185" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.5202312">
-          <folding />
         </state>
       </provider>
     </entry>

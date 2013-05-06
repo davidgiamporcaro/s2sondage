@@ -15,5 +15,8 @@ sondage_survey_edit:
     pattern: survey/edit/{id}
     defaults: { _controller: SondageSurveyBundle:Survey:edit , id: 0 }
     requirements:
-      _method:  GET
+      _method:  GET|POST
       id: \d+
+sondage_survey_add:
+    pattern:  survey/add
+    defaults: { _controller: SondageSurveyBundle:Survey:edit }
