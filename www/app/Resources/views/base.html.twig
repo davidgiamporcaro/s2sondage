@@ -35,7 +35,7 @@
                                             <a class="dropdown-toggle" data-toggle="dropdown" href="{{ path('fos_user_profile_show') }}"> {% trans %}Connected with{% endtrans %} {{ app.user.username }} <b class="caret"></b></a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="{{ path('sondage_survey_list') }}">{% trans %}My surveys{% endtrans %}</a></li>
-                                                <li><a href="#">{% trans %}Create new survey{% endtrans %}</a></li>
+                                                <li><a href="{{ path('sondage_survey_edit') }}">{% trans %}Create new survey{% endtrans %}</a></li>
                                             </ul>
                                         </li>
                                         <li {% if currentPath == path('fos_user_security_login') %} class='active' {% endif %}><a href="{{ path('fos_user_security_logout') }}">{% trans %}Logout{% endtrans %}</a></li>

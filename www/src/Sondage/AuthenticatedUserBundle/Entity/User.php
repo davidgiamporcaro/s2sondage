@@ -11,10 +11,12 @@ namespace Sondage\AuthenticatedUserBundle\Entity;
 
 use FOS\UserBundle\Entity\User as BaseUser;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 
 /**
  * @ORM\Entity
  * @ORM\Table(name="sondage_user")
+ * @UniqueEntity("username")
  */
 class User extends BaseUser
 {
