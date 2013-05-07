@@ -6,8 +6,8 @@
 {% block body %}
     <div class="survey-list with-border">
         <article>
-            <ul>
-                {% for survey in surveys %}
+            <ul class="list">
+                {% for survey in pagination %}
                     {% if (loop.index % 2) == 0 %}
                         <li style="background-color: white">
                     {% else %}
@@ -19,6 +19,7 @@
                     </li>
                 {% endfor %}
             </ul>
+                {{ knp_pagination_render(pagination) }}
         </article>
     </div>
 {% endblock %}

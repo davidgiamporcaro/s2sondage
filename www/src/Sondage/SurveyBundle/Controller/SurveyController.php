@@ -45,13 +45,19 @@ class SurveyController extends Controller
         if( $this->container->get('security.context')->isGranted('IS_AUTHENTICATED_FULLY') ) {
             $user = $this->container->get('security.context')->getToken()->getUser();
             $em = $this->getDoctrine()->getManager();
-            $surveys = $em->getRepository('SondageSurveyBundle:Survey')->findBy(array('userId' => $user->getId()));
+            $qb = $em->getRepository('SondageSurveyBundle:Survey')->createQueryBuilder('s');
+            $surveys = $qb->select('s')
+                ->where('s.userId = :userId')
+                ->setParameter('userId', $user->getId());
             if (!$surveys) {
                 throw $this->createNotFoundException('Unable to find any survey.');
             }
 
+            $paginator  = $this->get('knp_paginator');
+            $pagination = $paginator->paginate($surveys,$this->get('request')->query->get('page', 1)/*page number*/,5/*limit per page*/);
+
             return $this->render('SondageSurveyBundle:Survey:list.html.twig', array(
-                'surveys'      => $surveys,
+                'pagination'   => $pagination,
             ));
         }
     }
@@ -71,6 +77,9 @@ class SurveyController extends Controller
 
             } else {
                 $survey = new Survey();
+                $user = $this->container->get('security.context')->getToken()->getUser();
+                $survey->setAuthor($user->getUsername());
+                $survey->setUserId($user->getId());
             }
 
             $form = $this->createForm(new SurveyType(), $survey);

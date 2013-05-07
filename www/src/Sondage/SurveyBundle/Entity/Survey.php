@@ -8,6 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity
  * @ORM\Table(name="survey")
+ * @ORM\HasLifecycleCallbacks()
  */
 class Survey
 {
@@ -42,6 +43,20 @@ class Survey
      * @ORM\Column(type="integer")
      */
     protected $userId;
+
+    public function __construct()
+    {
+        $this->setCreated(new \DateTime());
+        $this->setUpdated(new \DateTime());
+    }
+
+    /**
+     * @ORM\PreUpdate
+     */
+    public function setUpdatedValue()
+    {
+        $this->setUpdated(new \DateTime());
+    }
 
     /**
      * Get id
@@ -143,5 +158,28 @@ class Survey
     public function getUpdated()
     {
         return $this->updated;
+    }
+
+    /**
+     * Set updated
+     *
+     * @param \integer $userId
+     * @return Survey
+     */
+    public function setUserId($userId)
+    {
+        $this->userId = $userId;
+
+        return $this;
+    }
+
+    /**
+     * Get updated
+     *
+     * @return \integer
+     */
+    public function getUserId()
+    {
+        return $this->userId;
     }
 }
