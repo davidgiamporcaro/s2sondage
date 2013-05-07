@@ -21,6 +21,7 @@ class AppKernel extends Kernel
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
 
             new FOS\UserBundle\FOSUserBundle(),
+            new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
             new Sondage\SurveyBundle\SondageSurveyBundle(),
             new Sondage\AuthenticatedUserBundle\SondageAuthenticatedUserBundle(),
         );
