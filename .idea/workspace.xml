@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="42f0eea8-7d8d-44b3-a289-162c8ce55803" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/custom.css" afterPath="$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list.html.twig" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sondage.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367858988322" ignored="false" />
+    <file path="/Dummy.txt" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367928202050" ignored="false" />
     <file path="/login.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367845124242" ignored="false" />
     <file path="/layout.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367324255712" ignored="false" />
     <file path="/RegistrationFormType.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364310631526" ignored="false" />
@@ -55,7 +53,7 @@
       <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="20" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0013315579">
+            <state line="21" column="20" selection-start="359" selection-end="359" vertical-scroll-proportion="0.01997337">
               <folding />
             </state>
           </provider>
@@ -64,11 +62,8 @@
       <file leaf-file-name="list.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="57" selection-start="521" selection-end="521" vertical-scroll-proportion="-8.125">
-              <folding>
-                <element signature="e#400#431#0" expanded="true" />
-                <element signature="e#492#522#0" expanded="true" />
-              </folding>
+            <state line="13" column="57" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,7 +71,7 @@
       <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="9" selection-start="737" selection-end="737" vertical-scroll-proportion="-8.125">
+            <state line="13" column="9" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -739,8 +734,8 @@
     <property name="options.lastSelected" value="preferences.general" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -880,7 +875,11 @@
       <created>1367859012107</created>
       <updated>1367859012107</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="adjust survey list page css">
+      <created>1367928226149</created>
+      <updated>1367928226149</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -892,7 +891,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969324" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2766218" sideWeight="0.9678663" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2760098" sideWeight="0.9678663" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32860824" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -950,7 +949,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding survey form and adjust some register form issue." />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust survey list page css" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -978,6 +977,7 @@
     <MESSAGE value="adding survey edit delete link, css" />
     <MESSAGE value="adding icons" />
     <MESSAGE value="adding survey form and adjust some register form issue." />
+    <MESSAGE value="adjust survey list page css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1050,24 +1050,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="9" selection-start="737" selection-end="737" vertical-scroll-proportion="-8.125">
+        <state line="13" column="9" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="57" selection-start="521" selection-end="521" vertical-scroll-proportion="-8.125">
-          <folding>
-            <element signature="e#400#431#0" expanded="true" />
-            <element signature="e#492#522#0" expanded="true" />
-          </folding>
+        <state line="13" column="57" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0013315579">
+        <state line="21" column="20" selection-start="359" selection-end="359" vertical-scroll-proportion="0.01997337">
           <folding />
         </state>
       </provider>
