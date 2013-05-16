@@ -44,6 +44,11 @@ class Survey
      */
     protected $userId;
 
+    /**
+     * @ORM\Column(type="string", length=200)
+     */
+    protected $description;
+
     public function __construct()
     {
         $this->setCreated(new \DateTime());
@@ -181,5 +186,28 @@ class Survey
     public function getUserId()
     {
         return $this->userId;
+    }
+
+    /**
+     * Set description
+     *
+     * @param string $author
+     * @return Survey
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+
+        return $this;
+    }
+
+    /**
+     * Get description
+     *
+     * @return string
+     */
+    public function getDescription()
+    {
+        return $this->description;
     }
 }

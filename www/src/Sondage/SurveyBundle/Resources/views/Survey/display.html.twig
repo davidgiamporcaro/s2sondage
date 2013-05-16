@@ -8,6 +8,7 @@
         <header>
             <div class="date"><time datetime="{{ survey.created|date('c') }}">{{ survey.created|date('l, F j, Y') }}</time></div>
             <h2>{{ survey.title }}</h2>
+            <p>{{ survey.description | raw }}</p>
         </header>
     </article>
 {% endblock %}
