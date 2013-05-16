@@ -24,6 +24,7 @@ class AppKernel extends Kernel
             new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
             new Sondage\SurveyBundle\SondageSurveyBundle(),
             new Sondage\AuthenticatedUserBundle\SondageAuthenticatedUserBundle(),
+            new Trsteel\CkeditorBundle\TrsteelCkeditorBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

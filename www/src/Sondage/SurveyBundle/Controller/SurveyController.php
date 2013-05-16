@@ -83,7 +83,27 @@ class SurveyController extends Controller
             }
 
             $form = $this->createForm(new SurveyType(), $survey);
-
+            $form->add('description', 'ckeditor', array(
+                'transformers'                 => array('strip_js', 'strip_css', 'strip_comments'),
+                'toolbar'                      => array('document', 'clipboard', 'editing', 'basicstyles', 'paragraph', 'links', 'insert', 'styles', 'tools'),
+                /*'toolbar_groups'               => array(
+                    'document' => array('Source'),
+                    'basicstyles' => array('Bold','Italic','Underline'),
+                ),*/
+                'startup_outline_blocks'       => false,
+                'width'                        => '100%',
+                'height'                       => '320',
+                'language'                     => 'en-au',
+                /*'filebrowser_image_browse_url' => array(
+                    'url' => 'relative-url.php?type=file',
+                ),
+                'filebrowser_image_browse_url' => array(
+                    'route'            => 'route_name',
+                    'route_parameters' => array(
+                        'type' => 'image',
+                    ),
+                ),*/
+            ));
             $request = $this->getRequest();
 
             if ('POST' == $request->getMethod()) {
@@ -92,6 +112,7 @@ class SurveyController extends Controller
 
                 if ($form->isValid()) {
                     $survey->setTitle($data->getTitle());
+                    $survey->setDescription($data->getDescription());
                     $em->persist($survey);
                     $em->flush();
 

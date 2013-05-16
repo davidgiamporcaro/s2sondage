@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "6fed62d14bbc5d45d43d488c102912dd",
+    "hash": "447a4d8d56041d2cb4cfdba13088fdc6",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1827,6 +1827,51 @@
             "time": "2013-04-06 10:16:33"
         },
         {
+            "name": "trsteel/ckeditor-bundle",
+            "version": "dev-master",
+            "target-dir": "Trsteel/CkeditorBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/trsteel88/TrsteelCkeditorBundle.git",
+                "reference": "ccdd8c1648800eae669c461f62f053d9aaca3b08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/trsteel88/TrsteelCkeditorBundle/zipball/ccdd8c1648800eae669c461f62f053d9aaca3b08",
+                "reference": "ccdd8c1648800eae669c461f62f053d9aaca3b08",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/form": ">=2.1,<2.3-dev",
+                "symfony/framework-bundle": "2.*,<2.3",
+                "twig/twig": ">=1.1,<2.0-dev"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Trsteel\\CkeditorBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Trent Steel",
+                    "email": "trsteel88@gmail.com"
+                }
+            ],
+            "description": "Symfony2 bundle for easy integration of the CKEditor WYSIWYG",
+            "keywords": [
+                "CKEditor",
+                "editor",
+                "wysiwyg"
+            ],
+            "time": "2013-04-28 09:40:26"
+        },
+        {
             "name": "twig/extensions",
             "version": "v1.0.0",
             "source": {
@@ -1931,7 +1976,8 @@
     ],
     "minimum-stability": "alpha",
     "stability-flags": {
-        "knplabs/knp-paginator-bundle": 20
+        "knplabs/knp-paginator-bundle": 20,
+        "trsteel/ckeditor-bundle": 20
     },
     "platform": {
         "php": ">=5.3.3"
