@@ -131,4 +131,12 @@ class SurveyController extends Controller
             ));
         }
     }
+
+    /**
+     * Show all user's survey
+     */
+    public function configureAction()
+    {
+
+    }
 }
