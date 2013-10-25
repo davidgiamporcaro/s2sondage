@@ -1,3 +1,7 @@
+sondage_settings:
+    resource: "@SondageSettingsBundle/Resources/config/routing.yml"
+    prefix:   /
+
 sondage_authenticated_user:
     resource: "@SondageAuthenticatedUserBundle/Resources/config/routing.yml"
     prefix:   /

@@ -1,0 +1,3 @@
+sondage_settings_configure:
+    pattern: survey/configure
+    defaults: { _controller: SondageSettingsBundle:Default:configure }

@@ -1,0 +1,7 @@
+parameters:
+#    sondage_settings.example.class: Sondage\SettingsBundle\Example
+
+services:
+#    sondage_settings.example:
+#        class: %sondage_settings.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
