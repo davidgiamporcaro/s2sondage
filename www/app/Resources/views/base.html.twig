@@ -57,9 +57,11 @@
             </header>
 
             <section class="main-col">
-                <h2>{% block page_title %}{% endblock %}</h2>
-                <h3>{% block page_tagline %}{% endblock %}</h3>
-                {% block body %}{% endblock %}
+                <div class="span12">
+                    <h2>{% block page_title %}{% endblock %}</h2>
+                    <h3>{% block page_tagline %}{% endblock %}</h3>
+                    {% block body %}{% endblock %}
+                </div>
             </section>
 
             <div id="footer">
