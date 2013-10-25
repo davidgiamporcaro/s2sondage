@@ -20,6 +20,3 @@ sondage_survey_edit:
 sondage_survey_add:
     pattern:  survey/add
     defaults: { _controller: SondageSurveyBundle:Survey:edit }
-sondage_configuration:
-    pattern: survey/configure
-    defaults: { _controller: SondageSurveyBundle:Survey:configure }

@@ -25,6 +25,7 @@ class AppKernel extends Kernel
             new Sondage\SurveyBundle\SondageSurveyBundle(),
             new Sondage\AuthenticatedUserBundle\SondageAuthenticatedUserBundle(),
             new Trsteel\CkeditorBundle\TrsteelCkeditorBundle(),
+            new Sondage\SettingsBundle\SondageSettingsBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
