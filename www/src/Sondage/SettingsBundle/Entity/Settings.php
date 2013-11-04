@@ -4,6 +4,8 @@
 namespace Sondage\SettingsBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
+
 
 /**
  * @ORM\Entity
@@ -24,6 +26,11 @@ class Settings
      */
     protected $title;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="Sondage\SettingsBundle\Entity\Document", cascade={"persist"})
+     */
+    private $documents;
+
     public function __construct()
     {
     }
@@ -37,18 +44,36 @@ class Settings
     public function setTitle($title)
     {
         $this->title = $title;
-    
         return $this;
     }
 
     /**
      * Get title
      *
-     * @return string 
+     * @return string
      */
     public function getTitle()
     {
         return $this->title;
     }
 
+
+    /**
+     * @param Sondage\SettingsBundle\Entity\Document $document
+     * @return Settings
+     */
+    public function setDocuments(\Sondage\SettingsBundle\Entity\Document $document = null)
+    {
+        $this->documents = $document;
+        return $this;
+    }
+
+
+    /**
+     * @return Sondage\SettingsBundle\Entity\Document
+     */
+    public function getDocuments()
+    {
+        return $this->documents;
+    }
 }

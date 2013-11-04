@@ -108,15 +108,12 @@ class SurveyController extends Controller
 
             if ('POST' == $request->getMethod()) {
                 $form->bind($request);
-                $data = $form->getData();
 
                 if ($form->isValid()) {
-                    $survey->setTitle($data->getTitle());
-                    $survey->setDescription($data->getDescription());
                     $em->persist($survey);
                     $em->flush();
 
-                    $this->get('session')->setFlash('success', 'New survey was saved!');
+                    $this->get('session')->setFlash('success', 'The survey was saved!');
 
                 }
                 else {
@@ -129,6 +126,9 @@ class SurveyController extends Controller
                 'survey'      => $survey,
                 'form'      => $form->createView(),
             ));
+        }
+        else {
+            throw new AccessDeniedException();
         }
     }
 }
