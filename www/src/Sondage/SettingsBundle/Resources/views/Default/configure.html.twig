@@ -1,26 +1,35 @@
 {% extends 'SondageSurveyBundle::layout.html.twig' %}
 {% block body %}
-Hello configuration !
-    <form action="{{ path('sondage_settings_configure') }}" {{ form_enctype(form) }} method="POST" class="form-horizontal">
+    <div class="survey-list with-border">
+        <article>
+            <ul class="list">
+                {% for slideshow_parameter in slideshow_parameters %}
+                    {% if (loop.index % 2) == 0 %}
+                        <li style="background-color: white">
+                    {% else %}
+                        <li style="background-color: #ccc">
+                    {% endif %}
+                    <a href="#"><i class="survey-icon-pencil"></i></a>
+                    <a href="#"><i class="survey-icon-remove"></i></a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </article>
+    </div>
+    <form action="{{ path('sondage_settings_slideshowparameters') }}" {{ form_enctype(form) }} method="POST" class="form-horizontal">
         {{ form_widget(form._token) }}
         <div class="control-group span12">
-            <label for="title" class="control-label">{{ 'Title'|trans({}, 'SondageSettingsBundle') }}</label>
-            <div class="controls">
-                {{ form_widget(form.title) }}
-            </div>
-        </div>
-        <div class="control-group span12">
-            <label for="description" class="control-label">{{ 'Files'|trans({}, 'SondageSettingsBundle') }}</label>
+            <label for="description" class="control-label">{{ 'Documents'|trans({}, 'SondageSettingsBundle') }}</label>
             <div class="controls">
                 {{ form_widget(form.documents) }}
             </div>
         </div>
+        {{ form_rest(form) }}
         <div class="control-group span12">
             <div class="controls">
                 <input class="btn" type="submit" value="{{ 'Submit'|trans({}, 'SondageSettingsBundle') }}" />
             </div>
         </div>
-        {{ form_rest(form) }}
         <div class="control-group span12">
             <div class="controls">
                 {% for type, messages in app.session.flashbag.all() %}
