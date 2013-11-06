@@ -12,11 +12,20 @@ use Sondage\SettingsBundle\Entity\Document;
 
 class DefaultController extends Controller
 {
-    public function configureAction()
+    public function SlideshowParametersAction()
     {
         if( $this->container->get('security.context')->isGranted('IS_AUTHENTICATED_FULLY') ) {
             $em = $this->getDoctrine()->getManager();
+            $qb = $em->getRepository('SondageSettingsBundle:Settings')->createQueryBuilder('s');
+            $slideShow_parameters = $qb->select('s')
+                ->setParameter('title', 'slideshow_parameters');
+            if (!$slideShow_parameters) {
+                throw $this->createNotFoundException('Unable to find any slideshow parameters.');
+            }
+
+            // New settings parameters
             $settings = new Settings();
+            $settings->setTitle('slideshow_parameters');
             $form = $this->createForm(new SettingsType, $settings);
 
             $request = $this->getRequest();
@@ -38,6 +47,7 @@ class DefaultController extends Controller
 
             return $this->render('SondageSettingsBundle:Default:configure.html.twig', array(
                 'form' => $form->createView(),
+                'slideshow_parameters' => array()//$slideShow_parameters,
             ));
         }
         else {
