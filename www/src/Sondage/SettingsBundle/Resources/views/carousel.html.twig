@@ -1,11 +1,11 @@
 <div id="myCarousel" class="carousel slide span9" style="margin-top: 20px">
     <!-- Carousel items -->
     <div class="carousel-inner">
-        {% for i in 1..3 %}
-            {% if (i == 1) %}
-                <div class="active item"><img src="http://getbootstrap.com/2.3.2/assets/img/bootstrap-mdo-sfmoma-0{{ i }}.jpg" /></div>
+        {% for slideshow_picture in slideshow_pictures %}
+            {% if (loop.index == 1) %}
+                <div class="active item"><img  class="img-responsive" src="{{ slideshow_picture.documents.webpath }}" alt="{{ slideshow_picture.documents.alt }}" /></div>
             {% else %}
-                <div class="item"><img src="http://getbootstrap.com/2.3.2/assets/img/bootstrap-mdo-sfmoma-0{{ i }}.jpg" /></div>
+                <div class="item"><img class="img-responsive" src="{{ slideshow_picture.documents.webpath }}" alt="{{ slideshow_picture.documents.alt }}" /></div>
             {% endif %}
         {% endfor %}
     </div>

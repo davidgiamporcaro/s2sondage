@@ -3,7 +3,7 @@
     <div class="survey-list with-border">
         <article>
             <ul class="list">
-                {% for slideshow_parameter in slideshow_parameters %}
+                {% for slideshow_picture in slideshow_pictures %}
                     {% if (loop.index % 2) == 0 %}
                         <li style="background-color: white">
                     {% else %}
@@ -11,6 +11,7 @@
                     {% endif %}
                     <a href="#"><i class="survey-icon-pencil"></i></a>
                     <a href="#"><i class="survey-icon-remove"></i></a>
+                    <img class="img-thumbnail" src="{{ slideshow_picture.documents.webpath }}" alt="{{ slideshow_picture.documents.alt }}" width="160" />
                     </li>
                 {% endfor %}
             </ul>

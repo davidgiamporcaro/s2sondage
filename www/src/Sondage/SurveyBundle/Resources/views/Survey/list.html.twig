@@ -15,7 +15,7 @@
                     {% endif %}
                         <a href="{{ path('sondage_survey_edit') }}/{{ survey.id }}"><i class="survey-icon-pencil"></i></a>
                         <a href="#{# {{ path('sondage_survey_remove') }}/{{ survey.id }} #}"><i class="survey-icon-remove"></i></a>
-                        <a href="{{ path('sondage_survey_display') }}/{{ survey.id }}">{{  survey.title }}</a>
+                        <a href="{{ path('sondage_survey_display') }}/{{ survey.id }}">{{ survey.title }}</a>
                     </li>
                 {% endfor %}
             </ul>
