@@ -21,9 +21,9 @@ class Document
     private $id;
 
     /**
-     * @ORM\Column(name="extension", type="string", length=255)
+     * @ORM\Column(name="path", type="string", length=255, nullable=true)
      */
-    private $extension;
+    public $path;
 
     /**
      * @ORM\Column(name="alt", type="string", length=255)
@@ -41,8 +41,7 @@ class Document
     public function preUpload()
     {
         if (null !== $this->file) {
-            //var_dump(get_class_methods($this->file));
-            $this->extension = $this->file->guessExtension();
+            $this->path = $this->file->guessExtension();
 
             // Et on génère l'attribut alt de la balise <img>, à la valeur du nom du fichier sur le PC de l'internaute
             $this->alt = $this->file->getClientOriginalName();
@@ -71,7 +70,7 @@ class Document
         // On déplace le fichier envoyé dans le répertoire de notre choix
         $this->file->move(
             $this->getUploadRootDir(), // Le répertoire de destination
-            $this->id.'.'.$this->extension   // Le nom du fichier à créer, ici « id.extension »
+            $this->id.'.'.$this->path   // Le nom du fichier à créer, ici « id.extension »
         );
     }
 
@@ -108,7 +107,7 @@ class Document
      */
     public function getAbsolutePath()
     {
-        return null === $this->path ? null : $this->getUploadRootDir().'/'.$this->path;
+        return null === $this->path ? null : $this->getUploadRootDir().'/'.$this->id.'.'.$this->path;
     }
 
     /**
@@ -116,7 +115,7 @@ class Document
      */
     public function getWebPath()
     {
-        return null === $this->path ? null : $this->getUploadDir().'/'.$this->path;
+        return null === $this->path ? null : '/'.$this->getUploadDir().'/'.$this->id.'.'.$this->path;
     }
 
     /**
@@ -134,5 +133,15 @@ class Document
     {
         $this->file = $file;
         return $this;
+    }
+
+    public function getAlt()
+    {
+        return $this->alt;
+    }
+
+    public function getPath()
+    {
+        return $this->path;
     }
 }

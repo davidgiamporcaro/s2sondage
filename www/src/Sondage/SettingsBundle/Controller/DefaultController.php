@@ -17,15 +17,18 @@ class DefaultController extends Controller
         if( $this->container->get('security.context')->isGranted('IS_AUTHENTICATED_FULLY') ) {
             $em = $this->getDoctrine()->getManager();
             $qb = $em->getRepository('SondageSettingsBundle:Settings')->createQueryBuilder('s');
-            $slideShow_parameters = $qb->select('s')
-                ->setParameter('title', 'slideshow_parameters');
-            if (!$slideShow_parameters) {
-                throw $this->createNotFoundException('Unable to find any slideshow parameters.');
+            $slideshow_pictures = $qb->select('s')
+                ->where('s.title = :title')
+                ->setParameter('title', 'slideshow_pictures')
+                ->getQuery();
+;
+            if (!$slideshow_pictures) {
+                throw $this->createNotFoundException('Unable to find any slideshow pictures.');
             }
 
             // New settings parameters
             $settings = new Settings();
-            $settings->setTitle('slideshow_parameters');
+            $settings->setTitle('slideshow_pictures');
             $form = $this->createForm(new SettingsType, $settings);
 
             $request = $this->getRequest();
@@ -44,10 +47,9 @@ class DefaultController extends Controller
                     $this->get('session')->setFlash('error', 'The settings was not saved!');
                 }
             }
-
             return $this->render('SondageSettingsBundle:Default:configure.html.twig', array(
                 'form' => $form->createView(),
-                'slideshow_parameters' => array()//$slideShow_parameters,
+                'slideshow_pictures' => $slideshow_pictures->getResult(),
             ));
         }
         else {
