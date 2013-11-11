@@ -131,4 +131,35 @@ class SurveyController extends Controller
             throw new AccessDeniedException();
         }
     }
+
+    public function removeAction()
+    {
+        if( $this->container->get('security.context')->isGranted('IS_AUTHENTICATED_FULLY') ) {
+            $user = $this->container->get('security.context')->getToken()->getUser();
+            $em = $this->getDoctrine()->getManager();
+
+            $id = $_POST['id'];
+            $survey = $em->getRepository('SondageSurveyBundle:Survey')->find($id);
+            $em->remove($survey);
+            $em->flush();
+
+            $qb = $em->getRepository('SondageSurveyBundle:Survey')->createQueryBuilder('s');
+            $surveys = $qb->select('s')
+                ->where('s.userId = :userId')
+                ->setParameter('userId', $user->getId());
+            if (!$surveys) {
+                throw $this->createNotFoundException('Unable to find any survey.');
+            }
+
+            $paginator  = $this->get('knp_paginator');
+            $pagination = $paginator->paginate($surveys,$this->get('request')->query->get('page', 1)/*page number*/,5/*limit per page*/);
+
+            return $this->render('SondageSurveyBundle:Survey:list_survey.html.twig', array(
+                'pagination'   => $pagination,
+            ));
+        }
+        else {
+            throw new AccessDeniedException();
+        }
+    }
 }

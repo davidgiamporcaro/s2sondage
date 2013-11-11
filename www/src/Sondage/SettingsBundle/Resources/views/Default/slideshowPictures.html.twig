@@ -1,0 +1,14 @@
+<article>
+    <ul class="list">
+        {% for slideshow_picture in slideshow_pictures %}
+            {% if (loop.index % 2) == 0 %}
+                <li style="background-color: white">
+            {% else %}
+                <li style="background-color: #ccc">
+            {% endif %}
+            <a href="" onClick="javascript:if (confirm('{% trans %}Are you sure ?{% endtrans %}')) { DeleteSlideshowPicture({{ slideshow_picture.id }}) }"><i class="survey-icon-remove"></i></a>
+            <img class="img-thumbnail" src="{{ slideshow_picture.documents.webpath }}" alt="{{ slideshow_picture.documents.alt }}" width="160" />
+            </li>
+        {% endfor %}
+    </ul>
+</article>

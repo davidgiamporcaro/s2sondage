@@ -20,3 +20,9 @@ sondage_survey_edit:
 sondage_survey_add:
     pattern:  survey/add
     defaults: { _controller: SondageSurveyBundle:Survey:edit }
+sondage_survey_remove:
+    pattern: survey/remove
+    defaults: { _controller: SondageSurveyBundle:Survey:remove , id: 0 }
+    requirements:
+      _method:  POST
+      id: \d+
