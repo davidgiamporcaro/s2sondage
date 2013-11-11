@@ -15,11 +15,11 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
     /*width: 60%;*/
 }
 
-.survey-list ul {
+.survey-list ul, .slideshow-pictures-list ul {
     margin: 0 0 0 0;
 }
 
-.survey-list ul.list li {
+.survey-list ul.list li, .slideshow-pictures-list ul.list li {
     list-style-type: none;
 }
 

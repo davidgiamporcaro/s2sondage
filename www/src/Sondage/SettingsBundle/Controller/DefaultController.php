@@ -56,4 +56,34 @@ class DefaultController extends Controller
             throw new AccessDeniedException();
         }
     }
+
+    public function removepictureAction()
+    {
+        if( $this->container->get('security.context')->isGranted('IS_AUTHENTICATED_FULLY') ) {
+            $em = $this->getDoctrine()->getManager();
+
+            $id = $_POST['id'];
+            $settings = $em->getRepository('SondageSettingsBundle:Settings')->find($id);
+            $em->remove($settings);
+            $em->flush();
+
+            //$em = $this->getDoctrine()->getManager();
+            $qb = $em->getRepository('SondageSettingsBundle:Settings')->createQueryBuilder('s');
+            $slideshow_pictures = $qb->select('s')
+                ->where('s.title = :title')
+                ->setParameter('title', 'slideshow_pictures')
+                ->getQuery();
+
+            if (!$slideshow_pictures) {
+                throw $this->createNotFoundException('Unable to find any slideshow pictures.');
+            }
+
+            return $this->render('SondageSettingsBundle:Default:slideshowPictures.html.twig', array(
+                'slideshow_pictures' => $slideshow_pictures->getResult(),
+            ));
+        }
+        else {
+            throw new AccessDeniedException();
+        }
+    }
 }

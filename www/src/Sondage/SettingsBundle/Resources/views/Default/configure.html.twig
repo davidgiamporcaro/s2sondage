@@ -1,21 +1,8 @@
 {% extends 'SondageSurveyBundle::layout.html.twig' %}
 {% block body %}
-    <div class="survey-list with-border">
-        <article>
-            <ul class="list">
-                {% for slideshow_picture in slideshow_pictures %}
-                    {% if (loop.index % 2) == 0 %}
-                        <li style="background-color: white">
-                    {% else %}
-                        <li style="background-color: #ccc">
-                    {% endif %}
-                    <a href="#"><i class="survey-icon-pencil"></i></a>
-                    <a href="#"><i class="survey-icon-remove"></i></a>
-                    <img class="img-thumbnail" src="{{ slideshow_picture.documents.webpath }}" alt="{{ slideshow_picture.documents.alt }}" width="160" />
-                    </li>
-                {% endfor %}
-            </ul>
-        </article>
+    <div id="slideshow-pictures-list" class="slideshow-pictures-list with-border">
+       {% embed  "SondageSettingsBundle:Default:slideshowPictures.html.twig" %}
+       {% endembed %}
     </div>
     <form action="{{ path('sondage_settings_slideshowparameters') }}" {{ form_enctype(form) }} method="POST" class="form-horizontal">
         {{ form_widget(form._token) }}
@@ -41,4 +28,8 @@
             </div>
         </div>
     </form>
+    {% javascripts
+    '@SondageSettingsBundle/Resources/public/js/settings.js' %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
 {% endblock %}

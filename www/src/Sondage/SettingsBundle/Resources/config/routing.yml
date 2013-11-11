@@ -1,3 +1,9 @@
 sondage_settings_slideshowparameters:
     pattern: survey/slideshowparameters
     defaults: { _controller: SondageSettingsBundle:Default:slideshowparameters }
+sondage_settings_removepicture:
+    pattern: survey/slideshowparameters/removepicture
+    defaults: { _controller: SondageSettingsBundle:Default:removepicture, id: 0 }
+    requirements:
+          _method:  POST
+          id: \d+
