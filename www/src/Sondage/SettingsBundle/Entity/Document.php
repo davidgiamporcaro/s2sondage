@@ -35,6 +35,17 @@ class Document
     private $tempFilename;
 
     /**
+     * @ORM\Column(name="width", type="integer")
+     */
+    private $width;
+
+    /**
+     * @ORM\Column(name="height", type="integer")
+     */
+    private $height;
+
+
+    /**
      * @ORM\PrePersist()
      * @ORM\PreUpdate()
      */
@@ -42,6 +53,20 @@ class Document
     {
         if (null !== $this->file) {
             $this->path = $this->file->guessExtension();
+            switch($this->file->getMimeType()) {
+                case 'image/jpeg':
+                case 'image/jpg':
+                case 'image/png':
+                    $image = @getimagesize($this->file->getpathName());
+                    $this->width = $image[0];
+                    $this->height = $image[1];
+                    break;
+                default:
+                    $this->width = 0;
+                    $this->height = 0;
+                    break;
+
+            }
 
             // Et on génère l'attribut alt de la balise <img>, à la valeur du nom du fichier sur le PC de l'internaute
             $this->alt = $this->file->getClientOriginalName();
@@ -135,13 +160,35 @@ class Document
         return $this;
     }
 
+    /**
+     * @return string
+     */
     public function getAlt()
     {
         return $this->alt;
     }
 
+    /**
+     * @return string
+     */
     public function getPath()
     {
         return $this->path;
+    }
+
+    /**
+     * @return integer
+     */
+    public function getWidth()
+    {
+        return $this->width;
+    }
+
+    /**
+     * @return integer
+     */
+    public function getHeight()
+    {
+        return $this->height;
     }
 }

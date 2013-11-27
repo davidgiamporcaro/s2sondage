@@ -7,7 +7,8 @@
                 <li style="background-color: #ccc">
             {% endif %}
             <a href="" onClick="javascript:if (confirm('{% trans %}Are you sure ?{% endtrans %}')) { DeleteSlideshowPicture({{ slideshow_picture.id }}) }"><i class="survey-icon-remove"></i></a>
-            <img class="img-thumbnail" src="{{ slideshow_picture.documents.webpath }}" alt="{{ slideshow_picture.documents.alt }}" width="160" />
+            <img class="img-thumbnail" src="{{ slideshow_picture.documents.webpath }}" alt="{{ slideshow_picture.documents.alt }}" width="160px" />
+            <span>Size : {{  slideshow_picture.documents.width }} x {{  slideshow_picture.documents.height }}</span>
             </li>
         {% endfor %}
     </ul>

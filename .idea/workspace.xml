@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="42f0eea8-7d8d-44b3-a289-162c8ce55803" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list_survey.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/public/js/settings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/Default/slideshowPictures.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/public/js/survey.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Entity/Settings.php" afterPath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Entity/Settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Controller/SurveyController.php" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Controller/SurveyController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/config/config.yml" afterPath="$PROJECT_DIR$/www/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/Default/configure.html.twig" afterPath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/Default/configure.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Entity/Document.php" afterPath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Entity/Document.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/carousel.html.twig" afterPath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/carousel.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/custom.css" afterPath="$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list.html.twig" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/Default/slideshowPictures.html.twig" afterPath="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/Default/slideshowPictures.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sondage.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1384179934468" ignored="false" />
+    <file path="/Dummy.txt" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1384699945076" ignored="false" />
     <file path="/login.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367845124242" ignored="false" />
     <file path="/layout.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1367324255712" ignored="false" />
     <file path="/RegistrationFormType.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1364310631526" ignored="false" />
@@ -34,7 +25,7 @@
     <file path="/routing.yml" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1384179333537" ignored="false" />
     <file path="/DefaultController.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1384177656711" ignored="false" />
     <file path="/index.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1383777267318" ignored="false" />
-    <file path="/custom.css" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1384176953913" ignored="false" />
+    <file path="/custom.css" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1385582271087" ignored="false" />
     <file path="/Survey.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1382692567102" ignored="false" />
     <file path="/SurveyController.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1384179109921" ignored="false" />
     <file path="/display.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1368725481529" ignored="false" />
@@ -60,16 +51,16 @@
     <file path="/configure.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1384177925159" ignored="false" />
     <file path="/SettingsType.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1383343779526" ignored="false" />
     <file path="/Settings.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1384165898691" ignored="false" />
-    <file path="/carousel.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1383777717681" ignored="false" />
+    <file path="/carousel.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1385580874769" ignored="false" />
     <file path="/Documents.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1383320087947" ignored="false" />
     <file path="/FilesType.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1383324665899" ignored="false" />
     <file path="/Files.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1383325598661" ignored="false" />
-    <file path="/Document.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1383770540608" ignored="false" />
+    <file path="/Document.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1384699699210" ignored="false" />
     <file path="/DocumentType.php" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1383757276067" ignored="false" />
     <file path="/settings.js" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1384177051835" ignored="false" />
-    <file path="/slideshowPictures.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1384178834203" ignored="false" />
+    <file path="/slideshowPictures.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1384699858615" ignored="false" />
     <file path="/survey.js" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1384179036720" ignored="false" />
-    <file path="/list_survey.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1384179395391" ignored="false" />
+    <file path="/list_survey.html.twig" changelist="42f0eea8-7d8d-44b3-a289-162c8ce55803" time="1384696461093" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,91 +80,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="configure.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/Default/configure.html.twig">
+      <file leaf-file-name="carousel.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/carousel.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="24" selection-start="1354" selection-end="1501" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="14" column="0" selection-start="866" selection-end="866" vertical-scroll-proportion="-8.75">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slideshowPictures.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/Default/slideshowPictures.html.twig">
+      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="153" selection-start="317" selection-end="438" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="19" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_survey.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list_survey.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="22" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/config/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="64" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SurveyController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Controller/SurveyController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="72" selection-start="5967" selection-end="5967" vertical-scroll-proportion="0.72727275">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="survey.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/public/js/survey.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="253" selection-end="264" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="24" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/public/js/settings.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Controller/DefaultController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="33" selection-start="2813" selection-end="2813" vertical-scroll-proportion="0.0">
+            <state line="42" column="17" selection-start="756" selection-end="785" vertical-scroll-proportion="0.34776726">
               <folding />
             </state>
           </provider>
@@ -189,22 +110,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Page/index.html.twig" />
-        <option value="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/carousel.html.twig" />
         <option value="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Entity/Settings.php" />
         <option value="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/slideshowPictures.html.twig" />
-        <option value="$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/custom.css" />
         <option value="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/public/js/settings.js" />
         <option value="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/Default/configure.html.twig" />
         <option value="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/Default/slideshowPictures.html.twig" />
         <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list_survey.html.twig" />
         <option value="$PROJECT_DIR$/www/app/config/config.yml" />
         <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/public/js/survey.js" />
         <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list.html.twig" />
         <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Controller/SurveyController.php" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list_survey.html.twig" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Entity/Document.php" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/Default/slideshowPictures.html.twig" />
+        <option value="$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/carousel.html.twig" />
+        <option value="$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/custom.css" />
       </list>
     </option>
   </component>
@@ -1401,7 +1322,11 @@
       <created>1383777979175</created>
       <updated>1383777979175</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Adding remove action on slideshow settings, and survey list page">
+      <created>1384180077118</created>
+      <updated>1384180077118</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1433,7 +1358,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969324" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3629131" sideWeight="0.67265725" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.372705" sideWeight="0.67265725" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277635" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1492,7 +1417,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding remove action on slideshow settings, and survey list page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding width and height parameters." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1525,6 +1450,7 @@
     <MESSAGE value="adding settings bundle" />
     <MESSAGE value="Configure homepage carousel" />
     <MESSAGE value="Adding remove action on slideshow settings, and survey list page" />
+    <MESSAGE value="Adding width and height parameters." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1532,31 +1458,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Entity/Document.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="49" selection-start="2807" selection-end="2807" vertical-scroll-proportion="-7.5416665" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Entity/Settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="7" selection-start="1019" selection-end="1019" vertical-scroll-proportion="-8.75" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/carousel.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="614" selection-end="614" vertical-scroll-proportion="-5.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Page/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="136" selection-end="210" vertical-scroll-proportion="-3.75" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="158" selection-start="2991" selection-end="3036" vertical-scroll-proportion="-6.375" />
@@ -1564,70 +1465,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="33" selection-start="2813" selection-end="2813" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list_survey.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="64" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/public/js/survey.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="253" selection-end="264" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/public/js/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="24" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="19" selection-start="219" selection-end="219" vertical-scroll-proportion="0.12747875" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/Default/slideshowPictures.html.twig">
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Form/Type/SettingsType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="153" selection-start="317" selection-end="438" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/Default/configure.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="24" selection-start="1354" selection-end="1501" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="33" column="24" selection-start="1354" selection-end="1501" vertical-scroll-proportion="0.67994505" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/views/Survey/list_survey.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="98" selection-start="475" selection-end="475" vertical-scroll-proportion="0.18881118" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="64" selection-start="843" selection-end="843" vertical-scroll-proportion="0.019946808" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Controller/SurveyController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="72" selection-start="5967" selection-end="5967" vertical-scroll-proportion="0.72727275">
+        <state line="145" column="49" selection-start="5385" selection-end="5385" vertical-scroll-proportion="0.47412586" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SurveyBundle/Resources/public/js/survey.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="253" selection-end="264" vertical-scroll-proportion="0.17952128" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/public/js/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.15957446" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="33" selection-start="2813" selection-end="2813" vertical-scroll-proportion="-15.958333" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Entity/Document.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="0" selection-start="1273" selection-end="1273" vertical-scroll-proportion="-10.333333" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/Default/slideshowPictures.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="115" selection-start="742" selection-end="742" vertical-scroll-proportion="0.20979021" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Entity/Settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.9162088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/Sondage/SettingsBundle/Resources/views/carousel.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="866" selection-end="866" vertical-scroll-proportion="-8.75">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/bundles/sondagesurvey/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="17" selection-start="756" selection-end="785" vertical-scroll-proportion="0.34776726">
           <folding />
         </state>
       </provider>
