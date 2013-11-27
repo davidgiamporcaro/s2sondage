@@ -1,6 +1,6 @@
 <div id="myCarousel" class="carousel slide span9" style="margin-top: 20px">
     <!-- Carousel items -->
-    <div class="carousel-inner">
+    <div class="carousel-inner carousel-bg-black">
         {% for slideshow_picture in slideshow_pictures %}
             {% if (loop.index == 1) %}
                 <div class="active item"><img  class="img-responsive" src="{{ slideshow_picture.documents.webpath }}" alt="{{ slideshow_picture.documents.alt }}" /></div>
@@ -13,3 +13,4 @@
     <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
     <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 </div>
+

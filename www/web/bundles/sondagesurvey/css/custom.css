@@ -34,6 +34,32 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
     border-radius: 4px 4px;
 }
 
+
+#myCarousel .img-responsive {
+    max-height: 500px;
+}
+
+#myCarousel .carousel-bg-black {
+    background-color: black;
+    -moz-border-radius-bottomright: 50px;
+    border-bottom-right-radius: 50px;
+    -moz-border-radius-topleft: 50px;
+    border-top-left-radius: 50px;
+}
+
+#myCarousel .item img {
+    margin-left: auto;
+    margin-right: auto;
+    -moz-border-radius-bottomright: 50px;
+    border-bottom-right-radius: 50px;
+    -moz-border-radius-topleft: 50px;
+    border-top-left-radius: 50px;
+}
+
+#myCarousel .carousel-control {
+    top:92%;
+}
+
 [class^="survey-icon-"],[class*=" survey-icon-"]{
     display:inline-block;
     width:27px;
@@ -53,6 +79,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 .survey-icon-remove {
     background-position:-80px -134px;
 }
+
 @media only screen and (min-width:640px) {
 	.logo { 
 		max-width: 100%; 
@@ -67,6 +94,14 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 		font-weight: bold; 
 		text-shadow:4px 4px #C9C9C9;
 	}
+
+    .carousel-control {
+        width: 30px;
+        height: 30px;
+        font-size: 50px;
+        line-height: 20px;
+        border: 3px solid #ffffff;
+    }
 }
 
 @media only screen and (max-width:640px) {
@@ -88,5 +123,8 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
         width:100%;
     }
 
+    .carousel-control {
+       display: none;
+    }
 }
 
