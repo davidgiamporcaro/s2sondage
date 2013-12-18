@@ -67,7 +67,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
     *margin-right:.3em;
     line-height:14px;
     vertical-align:middle;
-    background-image:url("../img/elegant_blue_web_full_160.png");
+    background-image:url("../../bundles/sondagesurvey/images/elegant_blue_web_full_160.png");
     background-position:27px 27px;
     background-repeat:no-repeat;
     margin-top:1px;
@@ -84,7 +84,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 	.logo { 
 		max-width: 100%; 
 		height: 177px; 
-		background-image:url('../img/Sondage.gif'); 
+		background-image:url('../../bundles/sondagesurvey/images/Sondage.gif');
 		background-size: 168px 177px; 
 		background-repeat:no-repeat; 
 		padding-left: 177px; 
@@ -108,7 +108,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 	.logo { 
 		max-width: 100%; 
 		height: 88px; 
-		background-image:url('../img/Sondage.gif'); 
+		background-image:url('../../bundles/sondagesurvey/images/Sondage.gif');
 		background-size: 84px 88px; 
 		background-repeat:no-repeat; 
 		padding-left: 88px; 
