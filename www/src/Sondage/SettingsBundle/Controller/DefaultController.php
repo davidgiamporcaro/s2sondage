@@ -40,11 +40,11 @@ class DefaultController extends Controller
                     $em->persist($document);
                     $em->flush();
 
-                    $this->get('session')->setFlash('success', 'New settings was saved!');
+                    $this->get('session')->getFlashBag()->set('success', 'New settings was saved!');
 
                 }
                 else {
-                    $this->get('session')->setFlash('error', 'The settings was not saved!');
+                    $this->get('session')->getFlashBag()->set('error', 'The settings was not saved!');
                 }
             }
             return $this->render('SondageSettingsBundle:Default:configure.html.twig', array(
