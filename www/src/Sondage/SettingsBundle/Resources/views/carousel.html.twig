@@ -10,7 +10,14 @@
         {% endfor %}
     </div>
     <!-- Carousel nav -->
-    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    <ol class="carousel-indicators">
+    {% for slideshow_picture in slideshow_pictures %}
+        {% if (loop.index == 1) %}
+            <li data-target="#myCarousel" class="active" data-slide-to="{{ loop.index0 }}"></li>
+        {% else %}
+            <li data-target="#myCarousel" class="" data-slide-to="{{ loop.index0 }}"></li>
+        {% endif %}
+    {% endfor %}
+    </ol>
 </div>
 
