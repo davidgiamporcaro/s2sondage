@@ -84,7 +84,7 @@ class SurveyController extends Controller
 
             $form = $this->createForm(new SurveyType(), $survey);
             $form->add('description', 'ckeditor', array(
-                'transformers'                 => array('strip_js', 'strip_css', 'strip_comments'),
+                //'transformers'                 => array('strip_js', 'strip_css', 'strip_comments'),
                 'toolbar'                      => array('document', 'clipboard', 'editing', 'basicstyles', 'paragraph', 'links', 'insert', 'styles', 'tools'),
                 /*'toolbar_groups'               => array(
                     'document' => array('Source'),

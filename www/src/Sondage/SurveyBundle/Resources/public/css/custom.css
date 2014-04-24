@@ -15,8 +15,9 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
     /*width: 60%;*/
 }
 
-.survey-list ul, .slideshow-pictures-list ul {
+ul {
     margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 .survey-list ul.list li, .slideshow-pictures-list ul.list li {
@@ -42,15 +43,8 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 #myCarousel .item img {
     margin-left: auto;
     margin-right: auto;
-    /*-moz-border-radius-bottomright: 50px;
-    border-bottom-right-radius: 50px;
-    -moz-border-radius-topleft: 50px;
-    border-top-left-radius: 50px;*/
 }
 
-#myCarousel .carousel-indicators {
-    top:100%;
-}
 
 #myCarousel .carousel-indicators li {
     background-color: black;
@@ -96,14 +90,6 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 		font-weight: bold; 
 		text-shadow:4px 4px #C9C9C9;
 	}
-
-    .carousel-control {
-        width: 30px;
-        height: 30px;
-        font-size: 50px;
-        line-height: 20px;
-        border: 3px solid #ffffff;
-    }
 }
 
 @media only screen and (max-width:640px) {
