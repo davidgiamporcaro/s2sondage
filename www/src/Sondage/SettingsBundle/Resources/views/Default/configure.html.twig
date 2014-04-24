@@ -6,20 +6,20 @@
     </div>
     <form action="{{ path('sondage_settings_slideshowparameters') }}" {{ form_enctype(form) }} method="POST" class="form-horizontal">
         {{ form_widget(form._token) }}
-        <div class="control-group span12">
-            <label for="description" class="control-label">{{ 'Documents'|trans({}, 'SondageSettingsBundle') }}</label>
-            <div class="controls">
-                {{ form_widget(form.documents) }}
+        <div class="form-group">
+            <label for="description" class="col-sm-2 control-label">{{ 'Documents'|trans({}, 'SondageSettingsBundle') }}</label>
+            <div class="col-sm-10">
+                {{ form_widget(form.documents,  {'attr': {'class': 'form-control'}}) }}
             </div>
         </div>
         {{ form_rest(form) }}
-        <div class="control-group span12">
-            <div class="controls">
-                <input class="btn" type="submit" value="{{ 'Submit'|trans({}, 'SondageSettingsBundle') }}" />
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10"">
+                <button class="btn btn-default" type="submit">{{ 'Submit'|trans({}, 'SondageSettingsBundle') }}</button>
             </div>
         </div>
-        <div class="control-group span12">
-            <div class="controls">
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
                 {% for type, messages in app.session.flashbag.all() %}
                     {% for message in messages %}
                         <p class="text-{{ type }}">{{ message }}</p>

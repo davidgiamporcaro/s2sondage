@@ -1,4 +1,5 @@
 <div id="myCarousel" class="carousel slide span9" style="margin-top: 20px">
+
     <!-- Carousel items -->
     <div class="carousel-inner carousel-bg-black">
         {% for slideshow_picture in slideshow_pictures %}
@@ -10,14 +11,20 @@
         {% endfor %}
     </div>
     <!-- Carousel nav -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
     <ol class="carousel-indicators">
-    {% for slideshow_picture in slideshow_pictures %}
-        {% if (loop.index == 1) %}
-            <li data-target="#myCarousel" class="active" data-slide-to="{{ loop.index0 }}"></li>
-        {% else %}
-            <li data-target="#myCarousel" class="" data-slide-to="{{ loop.index0 }}"></li>
-        {% endif %}
-    {% endfor %}
+        {% for slideshow_picture in slideshow_pictures %}
+            {% if (loop.index == 1) %}
+                <li data-target="#myCarousel" class="active" data-slide-to="{{ loop.index0 }}"></li>
+            {% else %}
+                <li data-target="#myCarousel" class="" data-slide-to="{{ loop.index0 }}"></li>
+            {% endif %}
+        {% endfor %}
     </ol>
 </div>
 
