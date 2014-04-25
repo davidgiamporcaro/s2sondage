@@ -8,7 +8,7 @@
             {% endif %}
             <a href="{{ path('sondage_survey_edit') }}/{{ survey.id }}"><i class="survey-icon-pencil"></i></a>
             <a href="#" onClick="javascript:if (confirm('{% trans %}Are you sure ?{% endtrans %}')) { DeleteSurvey({{ survey.id }}) }"><i class="survey-icon-remove"></i></a>
-            <a href="{{ path('sondage_survey_display') }}/{{ survey.id }}">{{ survey.title }}</a>
+            <a href="{{ path('sondage_survey_display') }}/{{ survey.id }}" alt="{{ survey.description|striptags }}" title="{{ survey.description|striptags }}">{{ survey.title }}</a>
             </li>
         {% endfor %}
     </ul>
