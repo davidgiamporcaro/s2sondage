@@ -8,6 +8,10 @@
             {% stylesheets '@SondageSurveyBundle/Resources/public/css/*' %}
             <link rel="stylesheet" type="text/css" media="screen" href="{{ asset_url }}" />
             {% endstylesheets %}
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
         {% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
@@ -58,7 +62,7 @@
             </header>
 
             <section class="container-fluid">
-                <div class="span12">
+                <div class="col-md-12">
                     <h2>{% block page_title %}{% endblock %}</h2>
                     <h3>{% block page_tagline %}{% endblock %}</h3>
                     {% block body %}{% endblock %}
@@ -73,10 +77,11 @@
         {% block javascripts %}
             {% javascripts
             '@SondageSurveyBundle/Resources/public/js/jquery.js'
-            '@SondageSurveyBundle/Resources/public/js/bootstrap.js'
             '@SondageSurveyBundle/Resources/public/js/survey.js' %}
             <script src="{{ asset_url }}"></script>
             {% endjavascripts %}
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         {% endblock %}
     </body>
 </html>
